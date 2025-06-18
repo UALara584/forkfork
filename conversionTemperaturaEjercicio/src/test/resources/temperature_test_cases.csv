@@ -1,0 +1,17 @@
+input,fromUnit,toUnit,expected
+0,celsius,fahrenheit,32
+100,celsius,fahrenheit,212
+-273.15,celsius,kelvin,0
+25,celsius,kelvin,298.15
+32,fahrenheit,celsius,0
+212,fahrenheit,celsius,100
+-459.67,fahrenheit,kelvin,0
+98.6,fahrenheit,kelvin,310.15
+0,kelvin,celsius,-273.15
+273.15,kelvin,celsius,0
+310.15,kelvin,fahrenheit,98.6
+25,celsius,celsius,NaN
+100,kelvin,kelvin,NaN
+50,fahrenheit,fahrenheit,NaN
+25,unknown,fahrenheit,NaN
+100,celsius,unknown,NaN
